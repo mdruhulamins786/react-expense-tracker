@@ -1,6 +1,10 @@
 # 💰 Expense Tracker
 
-A modern and responsive Expense Tracker application built with React and Tailwind CSS. Easily manage your income and expenses, track your available balance, and organize your transactions with a clean and user-friendly interface.
+A modern and responsive Expense Tracker application built with React and Tailwind CSS. Easily manage your income and expenses, track your available balance, and organize transactions with a clean and user-friendly interface.
+
+## 🌐 Live Demo
+
+**[View Live Project](https://react-expense-tracker-todo.netlify.app/)**
 
 ## 🚀 Features
 
@@ -96,7 +100,6 @@ Add your project screenshots here:
 - Add transaction sorting.
 - Add expense analytics and charts.
 - Add dark and light theme options.
-- Deploy the application online.
 
 ## 👨‍💻 Author
 
