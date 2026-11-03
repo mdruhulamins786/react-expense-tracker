@@ -1,16 +1,109 @@
-# React + Vite
+# 💰 Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Expense Tracker application built with React and Tailwind CSS. Easily manage your income and expenses, track your available balance, and organize your transactions with a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dashboard Overview** – View total income, total expenses, and available balance.
+- **Add Transactions** – Add new income and expense records.
+- **Edit Transactions** – Update existing transaction details.
+- **Delete Transactions** – Remove unwanted transactions.
+- **Search Transactions** – Search by title, amount, type, category, or date.
+- **Filter Transactions** – Filter transactions by All, Income, and Expense.
+- **Balance Validation** – Prevent expenses that exceed the available balance.
+- **Form Validation** – Validate transaction information before submission.
+- **Toast Notifications** – Display success and error messages.
+- **Responsive Design** – Works across desktop, tablet, and mobile devices.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- React Toastify
+- Vite
+- HTML5
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── components/
+│   ├── SummaryCards.jsx
+│   ├── TransactionForm.jsx
+│   ├── TransactionFilters.jsx
+│   └── TransactionTable.jsx
+│
+├── data/
+│   └── initialTransactions.js
+│
+├── utils/
+│   └── formatCurrency.js
+│
+├── ExpenseTracker.jsx
+├── App.jsx
+└── main.jsx
+```
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally.
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/mdruhulamins786/react-expense-tracker.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd react-expense-tracker
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
+
+```bash
+npm run dev
+```
+
+**5. Open in your browser**
+
+Visit the local URL provided by Vite, usually:
+
+```text
+http://localhost:5173
+```
+
+## 📸 Screenshots
+
+Add your project screenshots here:
+
+```markdown
+![Expense Tracker Dashboard](./screenshots/dashboard.png)
+```
+
+## 🔮 Future Improvements
+
+- Save transactions using LocalStorage.
+- Add category-based filtering.
+- Add transaction sorting.
+- Add expense analytics and charts.
+- Add dark and light theme options.
+- Deploy the application online.
+
+## 👨‍💻 Author
+
+**Md Ruhul Amin**
+
+- GitHub: [@mdruhulamins786](https://github.com/mdruhulamins786)
+
+---
+
+⭐ If you find this project useful, feel free to give it a star!
